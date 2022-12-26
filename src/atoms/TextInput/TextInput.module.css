@@ -1,0 +1,15 @@
+.TextInput {
+  height: 100%;
+  background: var(--light-grey);
+  color: var(--secondary);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  padding: 10px;
+  line-height: 100%;
+  border-radius: 10px;
+}

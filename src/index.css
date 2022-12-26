@@ -1,0 +1,32 @@
+:root {
+  --primary: #007FFF;
+  --secondary: #414a4c;
+  --grey: gray;
+  --light-grey: #f6f6f6;
+}
+
+body,
+html {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none; /* no underline */
+}

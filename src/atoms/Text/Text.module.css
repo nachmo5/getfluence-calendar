@@ -1,0 +1,36 @@
+.Text {
+    color: var(--primary);
+}
+
+.xl {
+    font-size: 2em;
+}
+
+.l {
+    font-size: 1.5em;
+}
+
+.md {
+    font-size: 1em;
+}
+
+.sm {
+    font-size: 0.8em;
+}
+
+.xs {
+    font-size: 0.5em;
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+.primary {
+    color: var(--primary);
+}
+
+.secondary {
+    color: var(--secondary);
+}

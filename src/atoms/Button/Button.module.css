@@ -1,0 +1,33 @@
+.Button {
+  border-radius: 10px;
+  width: fit-content;
+  padding: 10px 20px;
+  cursor: pointer;
+  min-width: 110px;
+  text-align: center;
+}
+
+.primary {
+  background: var(--primary);
+  color: white;
+}
+
+.secondary {
+  background: white;
+  color: var(--secondary);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 4px 0px;
+}
+
+.rainbow {
+  background: -webkit-linear-gradient(
+    right,
+    #00dbde,
+    #fc00ff,
+    #00dbde
+  );
+  color: white;
+}
+
+.fullWidth {
+  width: 100%;
+}

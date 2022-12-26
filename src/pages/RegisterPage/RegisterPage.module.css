@@ -1,0 +1,22 @@
+.RegisterPage {
+  height: 100%;
+  width: 100%;
+  background-image: url("../../../public/login-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  display: grid;
+  row-gap: 20px;
+  padding: 0px 30px;
+  min-width: 300px;
+  justify-items: center;
+}
+
+.login:hover{
+  text-decoration: underline;
+}

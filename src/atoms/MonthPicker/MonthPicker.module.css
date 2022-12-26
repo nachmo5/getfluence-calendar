@@ -1,0 +1,19 @@
+.MonthPicker {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caretContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+.caret {
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--grey);
+    font-size: 1.1em;
+}
